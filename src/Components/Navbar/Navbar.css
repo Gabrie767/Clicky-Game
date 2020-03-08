@@ -1,0 +1,51 @@
+.nav {
+    color: rgb(99, 215, 250);
+    background-color:#fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.nav-list-item {
+    display: inline;
+    width: 33%;
+    float: left;
+    
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(99, 215, 250);
+}
+
+.status {
+    color: #fd5;
+}
+
+@media screen and (max-width: 980px){
+    .nav {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 640px){
+    .nav {
+        font-size: 0.8rem;
+    }
+}
